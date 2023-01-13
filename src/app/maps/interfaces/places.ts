@@ -14,7 +14,7 @@ export interface Feature {
     relevance:  number;
     properties: Properties;
     text_es:       string;
-    place_name_es: string;
+    place_name: string;
     bbox?:       number[];
     center:     number[];
     geometry:   Geometry;
