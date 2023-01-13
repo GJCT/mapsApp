@@ -1,0 +1,10 @@
+
+<app-loading *ngIf="!isUserLocationReady; else mapReady"></app-loading>
+
+<ng-template #mapReady>
+    <app-map-view></app-map-view>
+    <app-btn-location></app-btn-location>
+    <app-serarch-bar></app-serarch-bar>
+</ng-template>
+
+<app-logo-ang></app-logo-ang>
